@@ -175,4 +175,31 @@ For a detailed analysis of each interview please refer to the respective intervi
 
 
 ## 4. References
-
+- **Aalijah, K. (2025).** Leveraging Social Media Analytics for Sustainability Trend Detection in Saudi Arabia’s Evolving Market. International Journal of Research Publication and Reviews, 6(3), 5540–5548.
+- **Aksoy, L., Buoye, A. J., Fors, M., Keiningham, T. L., & Rosengren, S. (2022).** Environmental, Social and Governance (ESG) metrics do not serve services customers: A missing link between sustainability metrics and customer perceptions of social innovation. Journal of Service Management, 33(4/5), 565–577.
+- **Alkhodair, S. A., Fung, B. C. M., Rahman, O., & Hung, P. C. K. (2018).** Improving interpretations of topic modeling in microblogs. Journal of the Association for Information Science and Technology, 69(4), 528–540.
+- **Arya, V., Mishra, A. K., & González-Briones, A. (2023).** Sentiments Analysis of Covid-19 Vaccine Tweets Using Machine Learning and Vader Lexicon Method. ADCAIJ: Advances in Distributed Computing and Artificial Intelligence Journal, 11(4), 507–518.
+- **Asiri, H., & Aksoy, M. S. (2022).** SOCIAL MEDIA DATA VISUALIZATION: A REVIEW. International Conferences Computer Graphics, Visualization, Computer Vision and Image Processing.
+- **Bahar, R. (2023).** Digital Media Strategies in Promoting Sustainable Consumption: An Evaluation of BIST Sustainability 25 Index Companie. MindVanguard: Beyond Behavior, 1(1), 11–21.
+- **Bisbee, J., & Munger, K. (2025).** The Vibes Are Off: Did Elon Musk Push Academics Off Twitter? PS: Political Science & Politics, 58(1), 139–146.
+- **Cao, L. (2023).** Sentiment Analysis of Social Media Text Based on Deep Learning. 2023 3rd International Conference on Mobile Networks and Wireless Communications (ICMNWC), 1–5.
+- **Domalewska, D. (2021).** A Longitudinal Analysis of the Creation of Environmental Identity and Attitudes towards Energy Sustainability Using the Framework of Identity Theory and Big Data Analysis. Energies, 14(3), 647.
+- **Dwivedi, Y. K., Ismagilova, E., Rana, N. P., & Raman, R. (2023).** Social Media Adoption, Usage And Impact In Business-To-Business (B2B) Context: A State-Of-The-Art Literature Review. Information Systems Frontiers, 25(3), 971–993.
+- **Grevy Gotfredsen, S. (2023).** Q&A: What happened to academic research on Twitter? Columbia Journalism Review.
+- **Jemiard Mmasomwayera Sinkula, D. (2024).** Perspective Chapter: Social Media Analytics – The Pavers of Business Model Development. In Social Media and Modern Society—How Social Media Are Changing the Way We Interact with the World Around. IntechOpen. 
+- **Jha, A. K., & Verma, N. K. (2022).** Social Media Sustainability Communication: An Analysis of Firm Behaviour and Stakeholder Responses. Information Systems Frontiers.
+- **Jha, A. K., & Verma, N. K. (2024).** Social media platforms and user engagement: A multi-platform study on one-way firm sustainability communication. Information Systems Frontiers, 26(1), 177-194.
+- **Kim, E., & Hara, N. (2024).** Identifying Different Semantic Features of Public Engagement with Climate Change NGOs Using Semantic Network Analysis. Sustainability, 16(4), 1438.
+- **Kudalkar, D. (2023).** Social Media Sentiment Analysis. International Journal for Research in Applied Science and Engineering Technology, 11(10), 1696–1708.
+- **Liang, H., Ganeshbabu, U., & Thorne, T. (2020).** A Dynamic Bayesian Network Approach for Analysing Topic-Sentiment Evolution. IEEE Access, 8, 54164–54174.
+- **Manetti, G., & Bellucci, M. (2016).** The use of social media for engaging stakeholders in sustainability reporting. Accounting, Auditing & Accountability Journal.
+- **Morales-Hernandez, R. C., Jaguey, J. G., & Becerra-Alonso, D. (2022).** A Comparison of Multi-Label Text Classification Models in Research Articles Labeled With Sustainable Development Goals. IEEE Access, 10, 123534–123548.
+- **Nguyen, H.-H. (2024).** Enhancing Sentiment Analysis on Social Media Data with Advanced Deep Learning Techniques. International Journal of Advanced Computer Science and Applications, 15(5).
+- **Nicolas, M. L. D., Desroziers, A., Caccioli, F., & Aste, T. (2024).** ESG reputation risk matters: An event study based on social media data. Finance Research Letters, 59, 104712.
+- **Oppong-Tawiah, D., & Webster, J. (2023).** Corporate sustainability communication as ‘fake news’: Firms’ greenwashing on Twitter. Sustainability, 15(8), 6683.
+- **Park, J., Choi, W., & Jung, S.-U. (2022).** Exploring Trends in Environmental, Social, and Governance Themes and Their Sentimental Value Over Time. Frontiers in Psychology, 13, 890435.
+- **Patuelli, A., Caldarelli, G., Lattanzi, N., & Saracco, F. (2021).** Firms’ challenges and social responsibilities during Covid-19: A Twitter analysis. PLOS ONE, 16(7), e0254748.
+- **Russo, S., Schimperna, F., Lombardi, R., & Ruggiero, P. (2022).** Sustainability performance and social media: An explorative analysis. Meditari Accountancy Research, 30(4), 1118–1140. 
+- **Sokolov, A., Mostovoy, J., Ding, J., & Seco, L. (2021).** Building Machine Learning Systems for Automated ESG Scoring. The Journal of Impact and ESG Investing, 1(3), 39–50.
+- **Stieglitz, S., Mirbabaie, M., Ross, B., & Neuberger, C. (2018).** Social media analytics – Challenges in topic discovery, data collection, and data preparation. International Journal of Information Management, 39, 156–168. 
+- **Tang, M., Yang, W., Li, Y., & Zeng, Q. (2023).** Research on multi-label long text classification algorithm based on transformer-LDA. In Y. Zhong (Ed.), Fifth International Conference on Computer Information Science and Artificial Intelligence (CISAI 2022) (p. 138). SPIE. 
