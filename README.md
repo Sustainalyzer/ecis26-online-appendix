@@ -1,7 +1,7 @@
 # Online Appendix: Sustainalyzer (ECIS 2026 Submission)
 
 This repository contains the supplementary methodological details for the paper "Sustainalyzer – An Analysis Tool for Sustainability Communication on Social Media", addressing the space limitations of the conference format.
-Concretely, the following details are adressed:
+Concretely, the following details are addressed:
 
 * [1. Systematic Literature Review Overview](#1-systematic-literature-review-overview)
 * [2. Expert Interviews Overview](#2-expert-interviews-overview)
@@ -33,7 +33,7 @@ The following table displays the used search criteria as well as guiding princip
 | Databases | Google Scholar, IEEE Xplore, SAGE Publications, SpringerLink, AIS Electronic Library, EBSCOhost, Emerald Insight, ACM Digital Library |
 | Search Fields | Title, Abstract, Keywords|
 | Search query | ("social media" OR "SM" OR "SMA") AND ("sustainab*" OR "CSR" OR "ESG" OR "Triple Bottom Line") AND ("text mining" OR "analytic*" OR "capabilit*" OR "decision making" OR "DDDM") |
-| Inclusion/Exclustion Criteria | Only peer-reviewed journal and conference papers in English |
+| Inclusion/Exclusion Criteria | Only peer-reviewed journal and conference papers in English |
 
 
 * **Forward & Backward Search:** To mitigate database bias and identify seminal cross-disciplinary works, a backward search was conducted using the visual literature mapping tool *Litmaps*.
@@ -65,16 +65,17 @@ Integrating both viewpoints ensures that the resulting Design Requirements lead 
 | E3 | Consulting | Senior Consultant ESG Reporting | 3 | 25 min |
 | E4 | Consulting | Manager ESG Reporting | 8 | 40 min |
 
-**Interview Setup:**
+**Interview Setup & Analysis:**
 - *Location / Plattform:* Microsoft Teams Calls
-- *Approach:* It was made sure, that the interviews were semi-structured and as open as possible, avoiding any direct DR mentioning (already identified through the literature review (see above)) of the Interviewer. This way, the risk of a simple "yes I find that also helpful" was reduced. So rather, the needs and requirements of the interviewees were identified via talking about specific real world pain points. For details see the interview protocols attached. 
-- *Documentation:* MS Teams internal transcribition functionality was used to document the interview outcomes 
+- *Approach:* It was made sure, that the interviews were semi-structured and as open as possible, avoiding any direct DR mentioning (as already identified through the literature review (see above)) of the interviewer. This way, the risk of a confirmation bias (a simple "yes I find that also helpful") was reduced. So rather, the needs and requirements of the interviewees were identified via talking about specific real world pain points of the specific industry or use case. For details see the interview protocols attached. 
+- *Documentation:* MS Teams internal transcribition functionality was used to document the interview outcomes. The Interviews were then translated to English as all interviewees were German natives
+- *Analysis:* The translated transcripts were analyzed using qualitative content analysis (Mayring, 2014) to systematically extract capabilities and challenges and combine them with the results from the literature review.
 
 *(Note: The full, anonymized interview guide is provided as a separate PDF file in this repository: LINK)*
 
 ## 3. Design Requirements Details
 ### 3.1 Mapping Table
-The following table demonstrates the chain of evidence, tracing each Design Requirement back to the identified literature and alocates the sustainability experts based on the interview results (see also 3.2).
+The following table demonstrates the chain of evidence, tracing each Design Requirement back to the identified literature and allocates the sustainability experts based on the interview results (see also 3.2).
 
 | Design Requirement | Source: Literature | Source: Expert Interview |
 | :--- | :--- | :--- |
@@ -82,16 +83,16 @@ The following table demonstrates the chain of evidence, tracing each Design Requ
 | **DR2:** Extension of generic keyword post extraction to collect sustainability domain-specific information | (Patuelli et al., 2021)(Park et al., 2022)(Alkhodair et al., 2018) | - |
 | **DR3:** Classification of social media posts in TBL dimensions | (Morales-Hernandez et al., 2022; Park et al., 2022; Sokolov et al., 2021)(Al-Garadi et al., 2021; Tang et al., 2023) | E1; E2 |
 | **DR4:** Consideration of Sentiment of user posts on TBL dimensions | (Manetti & Bellucci, 2016)(Arya et al., 2023; Cao, 2023; Nguyen, 2024) | - |
-| **DR5:** Ability to analyse TBL dimensions over time | (Chae & Park, 2018)(Park et al., 2022)(Liang et al., 2020)(Nicolas et al., 2024)(Aalijah, 2025)(Domalewska, 2021)(Jha & Verma, 2022); expert interviews | - |
+| **DR5:** Ability to analyse TBL dimensions over time | (Chae & Park, 2018)(Park et al., 2022)(Liang et al., 2020)(Nicolas et al., 2024)(Aalijah, 2025)(Domalewska, 2021)(Jha & Verma, 2022) | - |
 | **DR6:** Gap analysis between organisation & user narratives | (Chung et al., 2020; Dwivedi et al., 2023; Jha & Verma, 2024; Mukherjee, 2020; Oppong-Tawiah & Webster, 2023; Schivinski et al., 2016) | E2 |
 | **DR7:** Correlation of engagement metrics with TBL dimensions | (Aksoy et al., 2022; Bahar, 2023; Kim & Hara, 2024; Russo et al., 2022) | - |
-| **DR8:** Visualization of results | (Asiri & Aksoy, 2022; Jemiard Mmasomwayera Sinkula, 2024; Stieglitz et al., 2018) | *E1; E2 |
+| **DR8:** Visualization of results | (Asiri & Aksoy, 2022; Jemiard Mmasomwayera Sinkula, 2024; Stieglitz et al., 2018) | E1; E2 |
 | **DR9:** (Cross)-sector benchmarking | - | E1; E3; E4 |
 | **DR10:** Comparison of CSR report content with social media content | - | E1; E2; E4 |
 
 ### 3.2 Expert Interview Design Requirement Quotes
 The following tables provides an overview of the exact quotes from the interviewed experts that could be mapped to the Design Requirements above.
-For a detailed analysis of each interview please refer to the respective interview protocal (LINK | LINK | LINK | LINK)
+For a detailed analysis of each interview please refer to the respective interview protocol (LINK | LINK | LINK | LINK)
 
 
 <table>
@@ -104,60 +105,64 @@ For a detailed analysis of each interview please refer to the respective intervi
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4"><strong>E1</strong></td>
+      <td rowspan="5"><strong>E1</strong></td>
       <td>DR1</td>
-      <td>"...</td>
+      <td>"...Also, we usually only realize there is a problem when a topic is already blowing up. We don't see it building up over time. To really understand if a specific issue has been a problem for a while, we would desperately need the ability to extract a large number of social media posts over time..."</td>
     </tr>
     <tr>
       <td>DR3</td>
-      <td>"..."</td>
+      <td>"...It would save us weeks of reading through comments if we had the capability for an automatic classification of social media posts in the different sustainability dimensions..."</td>
     </tr>
     <tr>
       <td>DR8</td>
-      <td>"..."</td>
+      <td>"...If I open a tool, I need to instantly understand everything that is going on without having to read a manual. So, a simple dashboard is an absolute must-have for me..."</td>
+    </tr>
+    <tr>
+      <td>DR9</td>
+      <td>"...I'm also really interested in what others are doing and how they are performing... "</td>
     </tr>
     <tr>
       <td>DR10</td>
-      <td>"..."</td>
+      <td>"...We spend so much time on those reports, and we need to know if the topics resonate..."</td>
     </tr>
     <tr>
       <td rowspan="4"><strong>E2</strong></td>
       <td>DR3</td>
-      <td>"..."</td>
+      <td>"...So at the end of the day, to really understand the public perception, I still end up just manually scrolling through the comment sections with my coffee in the morning, which obviously takes forever...What we really need to make this data actually workable for my reporting is an automated classification and not just some generic topic clustering, which are quite off in a lot of cases..."</td>
     </tr>
     <tr>
       <td>DR6</td>
-      <td>"..."</td>
+      <td>"...But if people in the comments are actually completely ignoring the (anonymized product here) and instead discussing our supply chain issues in Asia, those generic tools completely miss it..."</td>
     </tr>
     <tr>
       <td>DR8</td>
-      <td>"..."</td>
+      <td>"...if I could just see the trends at a glance, like through some sort of intuitive dashboard with heatmaps or graphs, where I can immediately spot which ESG topics are gaining traction..."</td>
     </tr>
       <tr>
       <td>DR10</td>
-      <td>"..."</td>
+      <td>"...But once it's published as a PDF on our website, we just cross our fingers and hope it actually covers the topics people care about. Sometimes the social media team posts a snippet from my report, and the comments are just crickets, or people complain about something entirely different..."</td>
     </tr>
     <tr>
       <td rowspan="2"><strong>E3</strong></td>
       <td>DR1</td>
-      <td>"..."</td>
+      <td>"...we need to know what the public has been saying over the last two or three years to identify long-term trends or recurring controversies. But getting our hands on that older, historical data is incredibly difficult and expensive with standard listening tools..."</td>
     </tr>
     <tr>
       <td>DR9</td>
-      <td>"..."</td>
+      <td>"...Clients don't just want to know how they are doing in a vacuum; they want to know how they stack up against the rest of the market..."</td>
     </tr>
     <tr>
       <td rowspan="3"><strong>E4</strong></td>
       <td>DR1</td>
-      <td>"..."</td>
+      <td>"...I need to be able to pull a massive archive of data that goes back years, not just weeks, to really get the big picture..."</td>
     </tr>
     <tr>
       <td>DR9</td>
-      <td>"..."</td>
+      <td>"...I need the ability to instantly see how my client is performing relative to the rest of the industry or their direct DAX competitors..."</td>
     </tr>
     <tr>
       <td>DR10</td>
-      <td>"..."</td>
+      <td>"...It's almost impossible right now to systematically map what’s written in the official report against what the public is actually shouting about online..."</td>
   </tbody>
 </table>
 
