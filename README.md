@@ -45,6 +45,7 @@ To systematically synthesize the findings and derive the Design Requirements, th
 
 #### *Phase 5: Research Agenda*
 The derived DRs are used to develop the tool Sustainalyzer
+The derived DRs are operationalized to guide the iterative design and prototyping of Sustainalyzer. This phase defines the research agenda by aligning the technical functionalities of the artifact with the strategic requirements of sustainability experts, ensuring that the tool provides a solution to the identified problems.
 
 
 
@@ -67,8 +68,8 @@ Integrating both viewpoints ensures that the resulting Design Requirements lead 
 **Interview Setup & Analysis:**
 - *Location / Plattform:* Microsoft Teams Calls
 - *Approach:* It was made sure, that the interviews were semi-structured and as open as possible, avoiding any direct DR mentioning (as already identified through the literature review (see above)) of the interviewer. This way, the risk of a confirmation bias (a simple "yes I find that also helpful") was reduced. So rather, the needs and requirements of the interviewees were identified via talking about specific real world pain points of the specific industry or use case. For details see the interview protocols attached. 
-- *Documentation:* MS Teams internal transcribition functionality was used to document the interview outcomes. The Interviews were then translated to English as all interviewees were German natives
-- *Analysis:* The translated transcripts were analyzed using qualitative content analysis (Mayring, 2014) to systematically extract capabilities and challenges and combine them with the results from the literature review.
+- *Documentation:* MS Teams internal transcribtion functionality was used to document the interview outcomes. The Interviews were then translated to English as all interviewees were German natives.
+- *Analysis:* The given answers were analyzed using qualitative content analysis (Mayring, 2014) to systematically combine them with the results from the literature review results as well identify new DRs.
 
 *(Note: The interview guide is provided as a separate PDF file in this repository: [Interview Guideline](./Interview-Guideline.pdf)*
 
@@ -182,7 +183,9 @@ For a detailed analysis of each interview please refer to the respective intervi
 - **Asiri, H., & Aksoy, M. S. (2022).** SOCIAL MEDIA DATA VISUALIZATION: A REVIEW. International Conferences Computer Graphics, Visualization, Computer Vision and Image Processing.
 - **Bahar, R. (2023).** Digital Media Strategies in Promoting Sustainable Consumption: An Evaluation of BIST Sustainability 25 Index Companie. MindVanguard: Beyond Behavior, 1(1), 11–21.
 - **Bisbee, J., & Munger, K. (2025).** The Vibes Are Off: Did Elon Musk Push Academics Off Twitter? PS: Political Science & Politics, 58(1), 139–146.
+- **Brocke, J. V., Simons, A., Niehaves, B., Niehaves, B., Riemer, K., Plattfaut, R., & Cleven, A. (2009).** Reconstructing the giant: On the importance of rigour in documenting the literature search process. 
 - **Cao, L. (2023).** Sentiment Analysis of Social Media Text Based on Deep Learning. 2023 3rd International Conference on Mobile Networks and Wireless Communications (ICMNWC), 1–5.
+- **Cooper, H. M. (1988).** Organizing knowledge syntheses: A taxonomy of literature reviews. Knowledge in society, 1(1), 104.
 - **Domalewska, D. (2021).** A Longitudinal Analysis of the Creation of Environmental Identity and Attitudes towards Energy Sustainability Using the Framework of Identity Theory and Big Data Analysis. Energies, 14(3), 647.
 - **Dwivedi, Y. K., Ismagilova, E., Rana, N. P., & Raman, R. (2023).** Social Media Adoption, Usage And Impact In Business-To-Business (B2B) Context: A State-Of-The-Art Literature Review. Information Systems Frontiers, 25(3), 971–993.
 - **Grevy Gotfredsen, S. (2023).** Q&A: What happened to academic research on Twitter? Columbia Journalism Review.
@@ -193,6 +196,7 @@ For a detailed analysis of each interview please refer to the respective intervi
 - **Kudalkar, D. (2023).** Social Media Sentiment Analysis. International Journal for Research in Applied Science and Engineering Technology, 11(10), 1696–1708.
 - **Liang, H., Ganeshbabu, U., & Thorne, T. (2020).** A Dynamic Bayesian Network Approach for Analysing Topic-Sentiment Evolution. IEEE Access, 8, 54164–54174.
 - **Manetti, G., & Bellucci, M. (2016).** The use of social media for engaging stakeholders in sustainability reporting. Accounting, Auditing & Accountability Journal.
+- **Mayring, P. (2014).** Qualitative content analysis: Theoretical foundation, basic procedures and software solution.
 - **Morales-Hernandez, R. C., Jaguey, J. G., & Becerra-Alonso, D. (2022).** A Comparison of Multi-Label Text Classification Models in Research Articles Labeled With Sustainable Development Goals. IEEE Access, 10, 123534–123548.
 - **Nguyen, H.-H. (2024).** Enhancing Sentiment Analysis on Social Media Data with Advanced Deep Learning Techniques. International Journal of Advanced Computer Science and Applications, 15(5).
 - **Nicolas, M. L. D., Desroziers, A., Caccioli, F., & Aste, T. (2024).** ESG reputation risk matters: An event study based on social media data. Finance Research Letters, 59, 104712.
@@ -202,4 +206,5 @@ For a detailed analysis of each interview please refer to the respective intervi
 - **Russo, S., Schimperna, F., Lombardi, R., & Ruggiero, P. (2022).** Sustainability performance and social media: An explorative analysis. Meditari Accountancy Research, 30(4), 1118–1140. 
 - **Sokolov, A., Mostovoy, J., Ding, J., & Seco, L. (2021).** Building Machine Learning Systems for Automated ESG Scoring. The Journal of Impact and ESG Investing, 1(3), 39–50.
 - **Stieglitz, S., Mirbabaie, M., Ross, B., & Neuberger, C. (2018).** Social media analytics – Challenges in topic discovery, data collection, and data preparation. International Journal of Information Management, 39, 156–168. 
-- **Tang, M., Yang, W., Li, Y., & Zeng, Q. (2023).** Research on multi-label long text classification algorithm based on transformer-LDA. In Y. Zhong (Ed.), Fifth International Conference on Computer Information Science and Artificial Intelligence (CISAI 2022) (p. 138). SPIE. 
+- **Tang, M., Yang, W., Li, Y., & Zeng, Q. (2023).** Research on multi-label long text classification algorithm based on transformer-LDA. In Y. Zhong (Ed.), Fifth International Conference on Computer Information Science and Artificial Intelligence (CISAI 2022) (p. 138). SPIE.
+
