@@ -5,9 +5,8 @@ Concretely, the following details are addressed:
 
 * [1. Systematic Literature Review Overview](#1-systematic-literature-review-overview)
 * [2. Expert Interviews Overview](#2-expert-interviews-overview)
-* [3. Design Requirements Mapping Table](#3-design-requirements-mapping-table)
-* [4. Tool Provider Interviews](#4-tool-provider-interviews)
-* [5. References](#5-references)
+* [3. Design Requirements Details](#3-design-requirements-details)
+* [4. References](#4-references)
   
 
 ## 1. Systematic Literature Review Overview
@@ -71,7 +70,7 @@ Integrating both viewpoints ensures that the resulting Design Requirements lead 
 - *Documentation:* MS Teams internal transcribition functionality was used to document the interview outcomes. The Interviews were then translated to English as all interviewees were German natives
 - *Analysis:* The translated transcripts were analyzed using qualitative content analysis (Mayring, 2014) to systematically extract capabilities and challenges and combine them with the results from the literature review.
 
-*(Note: The full, anonymized interview guide is provided as a separate PDF file in this repository: LINK)*
+*(Note: The interview guide is provided as a separate PDF file in this repository: [Interview Guideline](./Interview-Guideline.pdf)*
 
 ## 3. Design Requirements Details
 ### 3.1 Mapping Table
@@ -81,18 +80,18 @@ The following table demonstrates the chain of evidence, tracing each Design Requ
 | :--- | :--- | :--- |
 | **DR1:** Ability to extract a large number of social media posts from the past until the present (via X) | (Grevy Gotfredsen, 2023)(Bisbee & Munger, 2025) | E1; E3; E4|
 | **DR2:** Extension of generic keyword post extraction to collect sustainability domain-specific information | (Patuelli et al., 2021)(Park et al., 2022)(Alkhodair et al., 2018) | - |
-| **DR3:** Classification of social media posts in TBL dimensions | (Morales-Hernandez et al., 2022; Park et al., 2022; Sokolov et al., 2021)(Al-Garadi et al., 2021; Tang et al., 2023) | E1; E2 |
-| **DR4:** Consideration of Sentiment of user posts on TBL dimensions | (Manetti & Bellucci, 2016)(Arya et al., 2023; Cao, 2023; Nguyen, 2024) | - |
-| **DR5:** Ability to analyse TBL dimensions over time | (Chae & Park, 2018)(Park et al., 2022)(Liang et al., 2020)(Nicolas et al., 2024)(Aalijah, 2025)(Domalewska, 2021)(Jha & Verma, 2022) | - |
-| **DR6:** Gap analysis between organisation & user narratives | (Chung et al., 2020; Dwivedi et al., 2023; Jha & Verma, 2024; Mukherjee, 2020; Oppong-Tawiah & Webster, 2023; Schivinski et al., 2016) | E2 |
-| **DR7:** Correlation of engagement metrics with TBL dimensions | (Aksoy et al., 2022; Bahar, 2023; Kim & Hara, 2024; Russo et al., 2022) | - |
-| **DR8:** Visualization of results | (Asiri & Aksoy, 2022; Jemiard Mmasomwayera Sinkula, 2024; Stieglitz et al., 2018) | E1; E2 |
+| **DR3:** Classification of social media posts in TBL dimensions | (Morales-Hernandez et al., 2022)(Park et al., 2022)(Sokolov et al., 2021)(Tang et al., 2023) | E1; E2 |
+| **DR4:** Consideration of Sentiment of user posts on TBL dimensions | (Arya et al., 2023)(Cao, 2023)(Kudalkar, 2023)(Manetti & Bellucci, 2016)(Nguyen, 2024) | - |
+| **DR5:** Ability to analyse TBL dimensions over time | (Aalijah, 2025)(Domalewska, 2021)(Jha & Verma, 2022)(Liang et al., 2020)(Nicolas et al., 2024)(Park et al., 2022) | E1; E2 |
+| **DR6:** Gap analysis between organisation & user narratives | (Oppong-Tawiah & Webster, 2023)(Dwivedi et al., 2023)(Jha & Verma, 2024) | E2 |
+| **DR7:** Correlation of engagement metrics with TBL dimensions | (Aksoy et al., 2022)(Bahar, 2023)(Kim & Hara, 2024)(Russo et al., 2022) | - |
+| **DR8:** Visualization of results | (Asiri & Aksoy, 2022)(Jemiard Mmasomwayera Sinkula, 2024)(Stieglitz et al., 2018) | E1; E2 |
 | **DR9:** (Cross)-sector benchmarking | - | E1; E3; E4 |
 | **DR10:** Comparison of CSR report content with social media content | - | E1; E2; E4 |
 
 ### 3.2 Expert Interview Design Requirement Quotes
 The following tables provides an overview of the exact quotes from the interviewed experts that could be mapped to the Design Requirements above.
-For a detailed analysis of each interview please refer to the respective interview protocol (LINK | LINK | LINK | LINK)
+For a detailed analysis of each interview please refer to the respective interview protocol ([Interview Protocol Expert 1 (E1)](./Interview-protocol_expert_1.pdf)|[Interview Protocol Expert 2 (E2)](./Interview-protocol_expert_2.pdf)|[Interview Protocol Expert 3 (E3)](./Interview-protocol_expert_3.pdf)|[Interview Protocol Expert 4 (E4)](./Interview-protocol_expert_4.pdf))
 
 
 <table>
@@ -105,13 +104,17 @@ For a detailed analysis of each interview please refer to the respective intervi
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><strong>E1</strong></td>
+      <td rowspan="6"><strong>E1</strong></td>
       <td>DR1</td>
       <td>"...Also, we usually only realize there is a problem when a topic is already blowing up. We don't see it building up over time. To really understand if a specific issue has been a problem for a while, we would desperately need the ability to extract a large number of social media posts over time..."</td>
     </tr>
     <tr>
       <td>DR3</td>
       <td>"...It would save us weeks of reading through comments if we had the capability for an automatic classification of social media posts in the different sustainability dimensions..."</td>
+    </tr>
+    <tr>
+      <td>DR5</td>
+      <td>"...It is important to continuously check whether we are actually in line with the general perception of sustainability trends and how those trends evolved,..."</td>
     </tr>
     <tr>
       <td>DR8</td>
@@ -126,9 +129,13 @@ For a detailed analysis of each interview please refer to the respective intervi
       <td>"...We spend so much time on those reports, and we need to know if the topics resonate..."</td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>E2</strong></td>
+      <td rowspan="5"><strong>E2</strong></td>
       <td>DR3</td>
       <td>"...So at the end of the day, to really understand the public perception, I still end up just manually scrolling through the comment sections with my coffee in the morning, which obviously takes forever...What we really need to make this data actually workable for my reporting is an automated classification and not just some generic topic clustering, which are quite off in a lot of cases..."</td>
+    </tr>
+    <tr>
+      <td>DR5</td>
+      <td>"...We need to continuously check if our internal roadmap is still in line with the general perception of sustainability trends. These things move so fast on social media...I need to see how those trends evolved over the last months ..."</td>
     </tr>
     <tr>
       <td>DR6</td>
@@ -166,8 +173,6 @@ For a detailed analysis of each interview please refer to the respective intervi
   </tbody>
 </table>
 
-## 4. Tool-Provider Interviews
-To enhance the transparency of the tool provider comparison, the results of the conducted interviews can be found here.
 
-## 5. References
+## 4. References
 
