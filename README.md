@@ -24,27 +24,27 @@ The literature search was structured around three core conceptual blocks to ensu
 3. **Method/Outcome:** Analytics, Text Mining, and Decision-Making Capabilities
 
 #### *Phase 3: Literature Search*
-The following table displays the used search criteria as well as guiding principles to to ensure comprehensive coverage:
+The following table displays the used search criteria as well as guiding principles to ensure comprehensive coverage:
 
 | Attribute | Value |
 | :--- | :--- |
 | Time Period | 2015 - 2025 |
-| Databases | Google Scholar, IEEE Xplore, SAGE Publications, SpringerLink, AIS Electronic Library, EBSCOhost, Emerald Insight, ACM Digital Library |
+| Databases | Google Scholar, IEEE Xplore, SAGE Publications, SpringerLink, AIS Electronic Library,  , Emerald Insight, ACM Digital Library |
 | Search Fields | Title, Abstract, Keywords|
 | Search query | ("social media" OR "SM" OR "SMA") AND ("sustainab*" OR "CSR" OR "ESG" OR "Triple Bottom Line") AND ("text mining" OR "analytic*" OR "capabilit*" OR "decision making" OR "DDDM") |
 | Inclusion/Exclusion Criteria | Only peer-reviewed journal and conference papers in English |
 
 
-* **Forward & Backward Search:** To mitigate database bias and identify seminal cross-disciplinary works, a backward search was conducted using the visual literature mapping tool *Litmaps*.
 
 
+#### *Phase 4: Literature Analysis and Synthesis*
 
-#### *Phase 4: Literature Analysis and Synthesis (Categorization)*
-To systematically synthesize the findings and derive the Design Requirements, the final literature list was analyzed using qualitative content analysis according to Mayring (2014). An inductive categorization approach was applied to extract recurring challenges, required capabilities, and strategic objectives.
+The initial database search yielded a total of 1812 results. In the first step, 321 duplicate records were removed, resulting in a set of 1491 unique papers. Next, a rigorous screening of titles and abstracts was conducted based on the defined inclusion and exclusion criteria. This step reduced the pool to 178 candidate papers for further analysis. During this phase, a substantial number of articles were excluded because they solely discussed general sustainability communication, marketing, or PR strategies without addressing the technological intersection of social media analytics, text mining, or data-driven decision support. In the final step, a full-text assessment was performed to ensure strict alignment with the research focus. Ultimately, this synthesis process resulted in a final sample of 28 highly relevant papers that were retained for the in-depth qualitative content analysis.
+To systematically synthesize the findings and derive the Design Requirements, the final literature list was analyzed using qualitative content analysis according to Mayring (2014). An inductive categorization approach was applied to extract recurring challenges and required capabilities.
 
 
 #### *Phase 5: Research Agenda*
-The derived DRs are used to develop the tool Sustainalyzer
+
 The derived DRs are operationalized to guide the iterative design and prototyping of Sustainalyzer. This phase defines the research agenda by aligning the technical functionalities of the artifact with the strategic requirements of sustainability experts, ensuring that the tool provides a solution to the identified problems.
 
 
@@ -66,12 +66,12 @@ Integrating both viewpoints ensures that the resulting Design Requirements lead 
 | E4 | Consulting | Manager ESG Reporting | 8 | 40 min |
 
 **Interview Setup & Analysis:**
-- *Location / Plattform:* Microsoft Teams Calls
-- *Approach:* It was made sure, that the interviews were semi-structured and as open as possible, avoiding any direct DR mentioning (as already identified through the literature review (see above)) of the interviewer. This way, the risk of a confirmation bias (a simple "yes I find that also helpful") was reduced. So rather, the needs and requirements of the interviewees were identified via talking about specific real world pain points of the specific industry or use case. For details see the interview protocols attached. 
-- *Documentation:* MS Teams internal transcribtion functionality was used to document the interview outcomes. The Interviews were then translated to English as all interviewees were German natives.
+- *Location / Platform:* Microsoft Teams Calls
+- *Approach:* The interviews were semi-structured avoiding voiding interviewer-led prompting of pre-identified DRs. This way, the risk of a confirmation bias (a simple "yes I find that also helpful") was reduced. So rather, the needs and requirements of the interviewees were identified via talking about specific real-world pain points of the specific industry or use case. For details see the interview protocols attached. 
+- *Documentation:* MS Teams internal transcription functionality was used to document the interview outcomes. The transcripts were then translated into English as all interviewees were German natives.
 - *Analysis:* The given answers were analyzed using qualitative content analysis (Mayring, 2014) to systematically combine them with the results from the literature review results as well identify new DRs.
 
-*(Note: The interview guide is provided as a separate PDF file in this repository: [Interview Guideline](./Interview-Guideline.pdf)*
+*(Note: The interview guide is provided as a separate PDF file in this online appendix: [Interview Guideline](./Interview-Guideline.pdf))*
 
 ## 3. Design Requirements Details
 ### 3.1 Mapping Table
